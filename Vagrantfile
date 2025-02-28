@@ -75,7 +75,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
     apt-get install -y apache2
-    mv /vagrant/html/test.html /var/www/html/
+    cp /vagrant/html/test.html /var/www/html/
   SHELL
 
   config.vm.hostname = "vagrant"
