@@ -1,0 +1,4 @@
+1- Création de la VM avec Vagrant
+2️- Installation automatique de NGINX Apach
+3️- Déploiement d’une page HTML personnalisée
+4️- Redirection du port 8080 de l’hôte vers le port 80 de la VM
